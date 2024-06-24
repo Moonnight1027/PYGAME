@@ -44,38 +44,38 @@ clock = pygame.time.Clock()
 #角色圖片
 L_walk_img = []
 for i in range(8):
-    L_walk_img.append(pygame.image.load(os.path.join("PYGAME","image","player",f"walk{i}.png")).convert_alpha())
+    L_walk_img.append(pygame.image.load(os.path.join("image","player",f"walk{i}.png")).convert_alpha())
 #背景圖片
-background = pygame.image.load(os.path.join("PYGAME","image","background","laboratory2.png")).convert_alpha()
-ini_background = pygame.image.load(os.path.join("PYGAME","image","background","laboratory1.png")).convert_alpha()
+background = pygame.image.load(os.path.join("image","background","laboratory2.png")).convert_alpha()
+ini_background = pygame.image.load(os.path.join("image","background","laboratory1.png")).convert_alpha()
 #零件
 component_img = []
 for i in range(3):
-    component_img.append(pygame.image.load(os.path.join("PYGAME","image","component",f"component{i}.png")).convert_alpha())
+    component_img.append(pygame.image.load(os.path.join("image","component",f"component{i}.png")).convert_alpha())
 #平台
-platform_img = pygame.image.load(os.path.join("PYGAME","image","background","platform.png")).convert_alpha()
+platform_img = pygame.image.load(os.path.join("image","background","platform.png")).convert_alpha()
 #寶箱
 chest_img = []
 for i in range(3):
-    chest_img.append(pygame.image.load(os.path.join("PYGAME","image","chest",f"chest{i}.png")).convert_alpha())
+    chest_img.append(pygame.image.load(os.path.join("image","chest",f"chest{i}.png")).convert_alpha())
 #子彈
-bullet_img = pygame.image.load(os.path.join("PYGAME","image","player","bullet.png")).convert_alpha()
+bullet_img = pygame.image.load(os.path.join("image","player","bullet.png")).convert_alpha()
 #生命值
-lives_img = pygame.image.load(os.path.join("PYGAME","image","player","lives.png")).convert_alpha()
+lives_img = pygame.image.load(os.path.join("image","player","lives.png")).convert_alpha()
 lives_img = pygame.transform.scale(lives_img,(50,50))
 
 
 #敵人圖片
 foe2_walk_img = []
 for i in range(9):
-    foe2_walk_img.append(pygame.image.load(os.path.join("PYGAME","image","foe",f"robot2_{i}.png")).convert_alpha())
+    foe2_walk_img.append(pygame.image.load(os.path.join("image","foe",f"robot2_{i}.png")).convert_alpha())
 foe1_walk_img = []
 for i in range(11):
-    foe1_walk_img.append(pygame.image.load(os.path.join("PYGAME","image","foe","foe1",f"robot1_{i}.png")).convert_alpha())
+    foe1_walk_img.append(pygame.image.load(os.path.join("image","foe","foe1",f"robot1_{i}.png")).convert_alpha())
 
 
 #生成字串函式
-font_name = os.path.join("PYGAME","font","GenJyuuGothic-Bold.ttf")
+font_name = os.path.join("font","GenJyuuGothic-Bold.ttf")
 
 #設定顯示字串的函式
 def draw_text(surf,text,size,x,y,text_color, outline_color = WHITE, outline_width=2):
@@ -492,7 +492,7 @@ class InputBox(pygame.sprite.Sprite,):
 
 #解題環節
 def problem_challenge():
-    subprocess.run(['python', 'C:\\Users\\user\\Desktop\\PYGAME-20240612T020745Z-001\PYGAME\\input_box.py'])
+    subprocess.run(['python', 'C:\\Users\\user\\Desktop\\PYGAME\\input_box.py'])
    
 
 # 寶箱設定
