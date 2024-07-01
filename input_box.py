@@ -3,11 +3,12 @@ import pyperclip
 import sys
 import os
 from io import StringIO
-import random  # 导入 random 模块
+import random
+import math
 
 FPS = 60
-WIDTH = 800
-HEIGHT = 600
+WIDTH = 1000
+HEIGHT = 750
 WHITE = (255, 255, 255)
 
 pygame.init()
@@ -36,7 +37,7 @@ class InputBox(pygame.sprite.Sprite):
         self.input_interval = {}
         self.font = pygame.font.Font(font_path, 28)
 
-        # 定义多个题目
+        # 定義題庫
         self.problems = [
             {
                 "problem": "Add two numbers",
@@ -52,7 +53,38 @@ class InputBox(pygame.sprite.Sprite):
                 "problem": "Subtract two numbers",
                 "input": ["5\n3", "10\n4"],
                 "expected_output": ["2\n", "6\n"]
+            },
+            {
+                "problem": "Calculate factorial of a number",
+                "input": ["5", "0"],
+                "expected_output": ["120\n", "1\n"]
+            },
+            {
+                "problem": "Count the number of words in a sentence",
+                "input": ["Hello world", "Python is awesome"],
+                "expected_output": ["2\n", "3\n"]
+            },
+            {
+                "problem": "Calculate the sum of a list of numbers",
+                "input": ["1 2 3 4 5", "10 20 30"],
+                "expected_output": ["15\n", "60\n"]
+            },
+            {
+                "problem": "Check if a number is prime",
+                "input": ["7", "12"],
+                "expected_output": ["True\n", "False\n"]
+            },
+            {
+                "problem": "Convert Celsius to Fahrenheit",
+                "input": ["25", "100"],
+                "expected_output": ["77\n", "212\n"]
+            },
+            {
+                "problem": "Calculate Area and Circumference of a Circle to Two Decimal Places",
+                "input": ["5", "10"],
+                "expected_output": ["78.54\n31.42\n", "314.16\n62.83\n"]
             }
+
         ]
 
         self.set_random_problem()
@@ -192,12 +224,3 @@ while running:
 
 pygame.quit()
 
-
-
-"""
-
-a = int(input())
-b = int(input())
-
-print(a+b)
-"""

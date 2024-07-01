@@ -439,7 +439,7 @@ class InputBox(pygame.sprite.Sprite,):
             if output.getvalue() == problem["expected_output"][i]:
                 results.append(f"Test case {i+1}: Passed")
             else:
-                results.append(f"Test case {i+1}: Failed - Expected {problem['expected_output'][i].split()}, but got {output.getvalue().split()}")
+                results.append(f"Test case {i+1}: Failed\nExpected {problem['expected_output'][i].split()}\nbut got {output.getvalue().split()}")
                 ap = False
             sys.stdout = sys.__stdout__
         return (results, ap)
@@ -492,7 +492,7 @@ class InputBox(pygame.sprite.Sprite,):
 
 #解題環節
 def problem_challenge():
-    subprocess.run(['python', 'C:\\Users\\user\\Desktop\\PYGAME\\input_box.py'])
+    subprocess.run(['python', 'C:\\Users\\hongc\\OneDrive\\桌面\\PYGAME\\input_box.py'])
    
 
 # 寶箱設定
