@@ -1,1 +1,39 @@
-RESULT:
+RESULT:Multiply two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(iniput())
+b = int(input())
+print(a*b)
+FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Multiply two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(iniput())
+b = int(input())
+print(a*b)
+
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 1)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 9)Subtract two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Subtract two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 1)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)Subtract two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 1)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)Subtract two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 1)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)
