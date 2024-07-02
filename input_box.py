@@ -4,7 +4,7 @@ import sys
 import os
 from io import StringIO
 import random
-import math
+
 
 FPS = 60
 WIDTH = 1000
@@ -84,7 +84,6 @@ class InputBox(pygame.sprite.Sprite):
                 "input": ["5", "10"],
                 "expected_output": ["78.54\n31.42\n", "314.16\n62.83\n"]
             }
-
         ]
 
         self.set_random_problem()
@@ -109,7 +108,7 @@ class InputBox(pygame.sprite.Sprite):
             self.cursor_y = self.text_y - 30
 
             pygame.draw.rect(self.image, (200, 200, 200), [10, 10, self.box_width - 20, self.box_height - 20], 2)  # 灰色边框
-            if (current_time % 1000 > 500):  # 光标闪烁
+            if (current_time % 1000 > 500):  # 光標閃爍
                 pygame.draw.line(self.image, (200, 200, 200), (self.cursor_x, self.cursor_y),
                                  (self.cursor_x, self.cursor_y + 30), 2)
 
@@ -127,6 +126,7 @@ class InputBox(pygame.sprite.Sprite):
                              (self.cursor_x, self.cursor_y + 30), 2)
 
     def execute_code(self, user_code, problem):
+        user_code = user_code.split("Type the code below ( Press Enter to submit ):\r\n")[-1]
         results = []
         ap = True
         for i in range(len(problem["input"])):
