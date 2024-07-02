@@ -1,98 +1,117 @@
-RESULT:Multiply two numbers
+RESULT:Add two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
-a = int(iniput())
-b = int(input())
-print(a*b)
-FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Multiply two numbers
+a = int(input())
+b = int(input())
+print(a+b)TrueTest case 1: PassedTest case 2: PassedAdd two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
-a = int(iniput())
-b = int(input())
-print(a*b)
+a = int(input())
+b = int(input())
+print(a+b)
 
-
-Test case 1: Failed¡AError invalid syntax (<string>, line 1)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 9)Subtract two numbers
+Test case 1: Passed
+Test case 2: PassedFalseTest case 1: Failed¡AError invalid syntax (<string>, line 5)Add two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
-FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Subtract two numbers
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
 
+Test case 1: Passed
+Test case 2: Passed
 
-Test case 1: Failed¡AError invalid syntax (<string>, line 1)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)Subtract two numbers
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
 
+Test case 1: Passed
+Test case 2: Passed
 
-Test case 1: Failed¡AError invalid syntax (<string>, line 1)
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
 
-Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)Subtract two numbers
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
 
+Test case 1: Passed
+Test case 2: Passed
 
-Test case 1: Failed¡AError invalid syntax (<string>, line 1)
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
 
-Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
 
-Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 6)Calculate Area and Circumference of a Circle to Two Decimal Places
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
-import math
+a = int(input())
+b = int(input())
+print(a+b)
 
-def circle_area_and_circumference():
-    radius = float(input())
-    area = math.pi * radius ** 2
-    circumference = 2 * math.pi * radius
-    print(area.2f)
-    print(circumference.2f)
+Test case 1: Passed
+Test case 2: Passed
 
-circle_area_and_circumference()FalseTest case 1: Failed¡AError invalid decimal literal (<string>, line 10)Calculate Area and Circumference of a Circle to Two Decimal Places
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
 -------------------------
 Type the code below ( Press Enter to submit ):
-import math
+a = int(input())
+b = int(input())
+print(a+b)
 
-def circle_area_and_circumference():
-    radius = float(input())
-    area = math.pi * radius ** 2
-    circumference = 2 * math.pi * radius
-    print(area.2f)
-    print(circumference.2f)
+Test case 1: Passed
+Test case 2: Passed
 
-circle_area_and_circumference()
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
 
-Test case 1: Failed¡AError invalid decimal literal (<string>, line 10)FalseTest case 1: Failed¡AError invalid decimal literal (<string>, line 10)Multiply two numbers
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Subtract two numbers(with absolute value)
 -------------------------
 Type the code below ( Press Enter to submit ):
-a = int(input())
-b = int(input())
-print(a*b)FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Subtract two numbers
+a = int(input())
+b = int(input())
+print(abs(a-b))TrueTest case 1: PassedTest case 2: PassedSubtract two numbers(with absolute value)
 -------------------------
 Type the code below ( Press Enter to submit ):
-a = int(input())
-b = int(input())
-print(a-b)FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Multiply two numbers
--------------------------
-Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(abs(a-b))
 
-a = int(input())
-b = int(input())
-print(a*b)FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Add two numbers
--------------------------
-Type the code below ( Press Enter to submit ):
-a = int(input())
-b = int(input())
-print(a+b)TrueTest case 1: PassedTest case 2: PassedCalculate Area and Circumference of a Circle to Two Decimal Places
--------------------------
-Type the code below ( Press Enter to submit ):
-import math
-
-def circle_area_and_circumference():
-    radius = float(input())
-    area = math.pi * radius ** 2
-    circumference = 2 * math.pi * radius
-    print(area.2f)
-    print(circumference.2f)
-
-circle_area_and_circumference()FalseTest case 1: Failed¡AError invalid decimal literal (<string>, line 7)
+Test case 1: Passed
+Test case 2: PassedFalseTest case 1: Failed¡AError invalid syntax (<string>, line 5)

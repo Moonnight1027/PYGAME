@@ -50,7 +50,7 @@ class InputBox(pygame.sprite.Sprite):
                 "expected_output": ["6\n", "20\n"]
             },
             {
-                "problem": "Subtract two numbers",
+                "problem": "Subtract two numbers(with absolute value)",
                 "input": ["5\n3", "10\n4"],
                 "expected_output": ["2\n", "6\n"]
             },
