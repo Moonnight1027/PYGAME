@@ -114,4 +114,233 @@ b = int(input())
 print(abs(a-b))
 
 Test case 1: Passed
-Test case 2: PassedFalseTest case 1: Failed¡AError invalid syntax (<string>, line 5)
+Test case 2: PassedFalseTest case 1: Failed¡AError invalid syntax (<string>, line 5)Count the number of words in a sentence
+-------------------------
+Type the code below ( Press Enter to submit ):
+sentence = input()
+words = sentence.split()
+print(len(words))TrueTest case 1: PassedTest case 2: PassedCount the number of words in a sentence
+-------------------------
+Type the code below ( Press Enter to submit ):
+sentence = input()
+words = sentence.split()
+print(len(words))
+
+Test case 1: Passed
+Test case 2: PassedFalseTest case 1: Failed¡AError invalid syntax (<string>, line 5)Count the number of words in a sentence
+-------------------------
+Type the code below ( Press Enter to submit ):
+sentence = input()
+words = sentence.split()
+print(len(words))
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Count the number of words in a sentence
+-------------------------
+Type the code below ( Press Enter to submit ):
+sentence = input()
+words = sentence.split()
+print(len(words))
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError name 'factorial' is not definedAdd two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)TrueTest case 1: PassedTest case 2: PassedAdd two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: PassedFalseTest case 1: Failed¡AError invalid syntax (<string>, line 5)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)
+
+Test case 1: Passed
+Test case 2: Passed
+
+Test case 1: Failed¡AError invalid syntax (<string>, line 5)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)
+
+Test case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)FalseTest case 1: Failed¡AError invalid character '¡A' (U+FF0C) (<string>, line 8)Convert Celsius to Fahrenheit
+-------------------------
+Type the code below ( Press Enter to submit ):
+celsius = float(input())
+fahrenheit = (celsius * 9/5) + 32
+print(fahrenheit)FalseTest case 1: Failed - Expected 77¡Abut got 77.0Test case 2: Failed - Expected 212¡Abut got 212.0Convert Celsius to Fahrenheit
+-------------------------
+Type the code below ( Press Enter to submit ):
+celsius = float(input())
+fahrenheit = int((celsius * 9/5) + 32)
+print(fahrenheit)TrueTest case 1: PassedTest case 2: Passed

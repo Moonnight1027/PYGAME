@@ -16,6 +16,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 running = True
 
+
 font_path = os.path.join("font/Yozai-Medium.ttf")
 
 
@@ -36,6 +37,7 @@ class InputBox(pygame.sprite.Sprite):
         self.input_set = set()
         self.input_interval = {}
         self.font = pygame.font.Font(font_path, 28)
+        self.all_passed = False
 
         # 定義題庫
         self.problems = [
@@ -172,7 +174,11 @@ class InputBox(pygame.sprite.Sprite):
                 self.input_set.add('    ')
                 self.input_interval['    '] = -100
             elif event.key == pygame.K_KP_ENTER:
+                if self.all_passed:
+                    pygame.quit()
+                    sys.exit()
                 results, ap = self.execute_code(self.text, self.problem)
+                self.all_passed = ap
 
                 with open('result.txt', 'a') as f:
                     f.write(self.text)
