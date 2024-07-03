@@ -31,6 +31,7 @@ class InputBox(pygame.sprite.Sprite):
         self.active = False
         self.font = pygame.font.Font(font_path, 28)
         self.all_passed = False
+        self.error_message = ""
 
         self.cursor_pos = 0
         self.text = ""
@@ -113,11 +114,20 @@ class InputBox(pygame.sprite.Sprite):
                 self.image.blit(cursor_surface, (cursor_x, cursor_y))
 
             pygame.draw.rect(self.image, (200, 200, 200), [10, 10, self.box_width - 20, self.box_height - 20], 2)
+            
+            if self.error_message:
+                error_lines = self.error_message.split('\n')
+                for line in error_lines:
+                    error_surface = self.font.render(line, True, WHITE, (20, 20, 20))
+                    self.image.blit(error_surface, (20, self.text_y))
+                    self.text_y += 32
         else:
             pygame.draw.rect(self.image, (140, 140, 140), [10, 10, self.box_width - 20, self.box_height - 20], 2)
 
     def execute_code(self, user_code, problem):
+        # Remove the prompt text from the user's code
         user_code = user_code.split("Type the code below ( Press Enter to submit ):\n")[-1]
+
         results = []
         ap = True
         for i in range(len(problem["input"])):
@@ -127,7 +137,7 @@ class InputBox(pygame.sprite.Sprite):
             try:
                 exec(user_code, {}, {})
             except Exception as e:
-                results.append(f"Test case {i + 1}: Failed，Error {e}")
+                results.append(f"Test case {i + 1}: Failed, Error {e}")
                 ap = False
                 break
             finally:
@@ -138,10 +148,12 @@ class InputBox(pygame.sprite.Sprite):
                 results.append(f"Test case {i + 1}: Passed")
             else:
                 results.append(
-                    f"Test case {i + 1}: Failed - Expected {problem['expected_output'][i].strip()}，but got {output.getvalue().strip()}")
+                    f"Test case {i + 1}: Failed - Expected {problem['expected_output'][i].strip()} but got {output.getvalue().strip()}")
                 ap = False
 
-        return results, ap
+        # Combine the results into a single string with each result on a new line
+        results_str = '\n'.join(results)
+        return results_str, ap
 
     def event_process(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
@@ -202,22 +214,20 @@ class InputBox(pygame.sprite.Sprite):
                     self.cursor_line += 1
                     self.cursor_column = min(self.cursor_column, len(self.input_lines[self.cursor_line]))
             elif event.key == pygame.K_KP_ENTER:
-                if self.all_passed:
-                    pygame.quit()
-                    sys.exit()
-                results, ap = self.execute_code('\n'.join(self.input_lines), self.problem)
-                self.all_passed = ap
+                if self.error_message:
+                    self.error_message = ""
+                else:
+                    results, ap = self.execute_code('\n'.join(self.input_lines), self.problem)
+                    self.all_passed = ap
+                    self.error_message = results
 
                 with open('result.txt', 'a') as f:
                     f.write('\n'.join(self.input_lines))
-                    f.write(str(ap))
-                    for line in results:
-                        f.write(line)
-                self.text += '\n'
-                for i in results:
-                    self.text += '\n'
-                    self.text += i
-                return ap
+                    f.write('\n')
+                    f.write(f"All Passed: {self.all_passed}\n")
+                    f.write(self.error_message)
+                return
+
             elif event.key == pygame.K_ESCAPE:
                 self.kill()
             else:
@@ -251,5 +261,12 @@ while running:
     pygame.display.update()
 
 pygame.quit()
+
+
+
+
+
+
+
 
 

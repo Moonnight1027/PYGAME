@@ -343,4 +343,359 @@ print(fahrenheit)FalseTest case 1: Failed - Expected 77¡Abut got 77.0Test case 2
 Type the code below ( Press Enter to submit ):
 celsius = float(input())
 fahrenheit = int((celsius * 9/5) + 32)
-print(fahrenheit)TrueTest case 1: PassedTest case 2: Passed
+print(fahrenheit)TrueTest case 1: PassedTest case 2: PassedConvert Celsius to Fahrenheit
+-------------------------
+Type the code below ( Press Enter to submit ):
+123FalseTest case 1: Failed - Expected 77¡Abut got Test case 2: Failed - Expected 212¡Abut got Convert Celsius to Fahrenheit
+-------------------------
+Type the code below ( Press Enter to submit ):
+FalseTest case 1: Failed - Expected 77¡Abut got Test case 2: Failed - Expected 212¡Abut got Count the number of words in a sentence
+-------------------------
+Type the code below ( Press Enter to submit ):
+vfvfb
+fesfcvFalseTest case 1: Failed¡AError name 'vfvfb' is not definedCount the number of words in a sentence
+-------------------------
+Type the code below ( Press Enter to submit ):
+FalseTest case 1: Failed - Expected 2¡Abut got Test case 2: Failed - Expected 3¡Abut got Count the number of words in a sentence
+-------------------------
+Type the code below ( Press Enter to submit ):
+FalseTest case 1: Failed - Expected 2¡Abut got Test case 2: Failed - Expected 3¡Abut got Calculate the sum of a list of numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+123FalseTest case 1: Failed - Expected 15¡Abut got Test case 2: Failed - Expected 60¡Abut got Calculate the sum of a list of numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a+b)FalseTest case 1: Failed¡AError invalid literal for int() with base 10: '1 2 3 4 5'Calculate the sum of a list of numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+FalseTest case 1: Failed - Expected 15¡Abut got Test case 2: Failed - Expected 60¡Abut got Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+import math
+
+radius = float(input())
+area = math.pi * radius ** 2
+circumference = 2 * math.pi * radius
+print(area)
+print(circumference)FalseTest case 1: Failed - Expected 78.54
+31.42¡Abut got 78.53981633974483
+31.41592653589793Test case 2: Failed - Expected 314.16
+62.83¡Abut got 314.1592653589793
+62.83185307179586Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+import math
+
+radius = float(input())
+area = math.pi * radius ** 2
+circumference = 2 * math.pi * radius
+print(area)
+print(circumference)FalseTest case 1: Failed - Expected 78.54
+31.42¡Abut got 78.53981633974483
+31.41592653589793Test case 2: Failed - Expected 314.16
+62.83¡Abut got 314.1592653589793
+62.83185307179586Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+import math
+
+radius = float(input())
+area = math.pi * radius ** 2
+circumference = 2 * math.pi * radius
+print(area)
+print(circumference)FalseTest case 1: Failed - Expected 78.54
+31.42¡Abut got 78.53981633974483
+31.41592653589793Test case 2: Failed - Expected 314.16
+62.83¡Abut got 314.1592653589793
+62.83185307179586Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+import math
+
+radius = float(input())
+area = math.pi * radius ** 2
+circumference = 2 * math.pi * radius
+print(area)
+print(circumference)FalseTest case 1: Failed - Expected 78.54
+31.42¡Abut got 78.53981633974483
+31.41592653589793Test case 2: Failed - Expected 314.16
+62.83¡Abut got 314.1592653589793
+62.83185307179586Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError name 'factorial' is not definedCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError name 'factorial' is not definedCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError name 'factorial' is not definedCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError name 'factorial' is not definedCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError name 'factorial' is not definedCheck if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))
+FalseTest case 1: Failed¡AError name 'factorial' is not definedCheck if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+Check if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))
+FalseTest case 1: Failed¡AError name 'factorial' is not definedCheck if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+Check if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+Check if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))
+FalseTest case 1: Failed¡AError name 'factorial' is not definedCheck if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+nums = list(map(int, input().split()))
+print(sum(nums))FalseTest case 1: Failed - Expected True¡Abut got 7Test case 2: Failed - Expected False¡Abut got 12Check if a number is prime
+-------------------------
+Type the code below ( Press Enter to submit ):
+nums = list(map(int, input().split()))
+print(sum(nums))Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+nums = list(map(int, input().split()))
+print(sum(nums))FalseTest case 1: Failed - Expected 78.54
+31.42¡Abut got 5Test case 2: Failed - Expected 314.16
+62.83¡Abut got 10Calculate Area and Circumference of a Circle to Two Decimal Places
+-------------------------
+Type the code below ( Press Enter to submit ):
+nums = list(map(int, input().split()))
+print(sum(nums))Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+nums = list(map(int, input().split()))
+print(sum(nums))FalseTest case 1: Failed - Expected 120¡Abut got 5
+Test case 2: Failed - Expected 1¡Abut got 0Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+nums = list(map(int, input().split()))
+print(sum(nums))FalseCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit )
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit )
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))FalseCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit )
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+num = int(input())
+print(factorial(num))FalseTest case 1: Failed¡AError invalid syntax (<string>, line 1)Calculate the sum of a list of numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+nums = list(map(int, input().split()))
+print(sum(nums))TrueTest case 1: Passed
+Test case 2: PassedMultiply two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+sentence = input()
+words = sentence.split()
+print(len(words))FalseTest case 1: Failed - Expected 6¡Abut got 1
+Test case 2: Failed - Expected 20¡Abut got 1Multiply two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+sentence = input()
+words = sentence.split()
+print(len(words))FalseMultiply two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(a*b)TrueTest case 1: Passed
+Test case 2: PassedAdd two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(abs(a-b))
+All Passed: False
+Test case 1: Failed - Expected 3 but got 1
+Test case 2: Failed - Expected 7 but got 1Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(abs(a-b))
+All Passed: False
+Add two numbers
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(abs(a+b))
+All Passed: True
+Test case 1: Passed
+Test case 2: PassedCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(abs(a-b))
+All Passed: False
+Test case 1: Failed, Error EOF when reading a lineCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+a = int(input())
+b = int(input())
+print(abs(a-b))
+All Passed: False
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))
+All Passed: False
+Test case 1: Failed, Error name 'factorial' is not definedCalculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input())
+print(factorial(num))
+All Passed: False
+Calculate factorial of a number
+-------------------------
+Type the code below ( Press Enter to submit ):
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+num = int(input())
+print(factorial(num))
+All Passed: False
+Test case 1: Failed, Error name 'factorial' is not defined
